@@ -1,0 +1,196 @@
+/*Import font style(s)*/
+@import url('https://fonts.googleapis.com/css?family=Lato');
+
+/*Provides clearance for navbar*/
+body {
+    padding-top: 80px;
+    background-color: #F3F3F3;
+}
+
+/*Room list styles found in Rooms.php*/
+.roomlist {
+    border: solid 1px #d6d6d6;
+    background-color: #fff;
+    max-width: 70%;
+    height: auto;
+    margin-bottom: 10px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+
+/*Image styling found in rooms.php & book.php*/
+.roomimage {
+   margin-top: 15px;
+   width: 200px;
+   height: auto;
+    
+}
+
+/*Home container*/
+/*Over-rides bootstrap styles*/
+.homecontent {
+    border-radius: 2px;
+    border: solid 1px #d6d6d6;
+    width: 90%;
+    background-color: white;
+    margin-bottom: 20px;
+}
+
+
+/*Simple container for storing content, used widely to follow design*/
+/*Over-rides bootstrap styles*/
+.content {
+    border-radius: 2px;
+    border: solid 1px #d6d6d6;
+    max-width: 400px;
+    background-color: white;
+    padding-bottom: 10px;
+}
+
+
+/*Headings and paragraphs, align all unless using id*/
+h1,
+h2,
+h3,
+h4,
+h5,
+p {
+    text-align: center;
+    font-family: 'Lato', sans-serif;
+}
+
+/*Clearance for rows*/
+#row {
+    margin-top: 1em;
+}
+
+/*column text styling for design*/
+.col-md-4 .info {
+    text-align: center;
+}
+
+/*Home signup form styling*/
+#homeFirst{
+    float: right;
+    max-width: 235px;
+}
+#homeLast{
+    float: left;
+    max-width: 235px;
+}
+
+/*AUTH STYLING - this code was taken and adapted from https://www.w3schools.com/howto/howto_css_loader.asp*/
+/*Adapted colour and size*/
+#loader {
+    border: 16px solid #f3f3f3;
+    border-top: 16px solid #3498db;
+    border-radius: 50%;
+    width: 80px;
+    height: 80px;
+    animation: spin 2s linear infinite;
+}
+@keyframes spin {
+    0% {
+        transform: rotate(0deg);
+    }
+    100% {
+        transform: rotate(360deg);
+    }
+}
+
+/*Used for home signup icon styling - used to keep design trend*/
+/*Adapted bootstrap style*/
+span.input-group-addon {
+    background-color: #337ab7;
+}
+.glyphicon{
+    color: #FFF;
+}
+
+/*form buttons*/
+.form-group {
+    margin-top: 10px;
+    width: 60%;
+    max-width: 500px;
+}
+
+
+/*NAVBAR STYLES*/
+/*Adapted bootstrap style*/
+#navigation {
+    position: fixed;
+    top: 0;
+    z-index: 999;
+    width: 100%;
+}
+
+/*Adapted bootstrap style*/
+.navbar-default .navbar-brand>a:hover {
+    text-decoration: none;
+}
+
+/*Adapted bootstrap style*/
+.navbar-default .navbar-brand>a {
+    color: #FFF;
+}
+
+/*Adapted bootstrap style*/
+.navbar-default .navbar-brand>a:hover {
+    color: #000;
+}
+
+/*Adapted bootstrap style*/
+.navbar-default .navbar-nav>li>a {
+    color: #fff
+}
+
+/*Adapted bootstrap style*/
+.navbar-default {
+    background-color: #337ab7;
+    border-color: #337ab7;
+}
+
+/*Adapted bootstrap style*/
+.navbar-default .navbar-toggle .icon-bar {
+    background-color: #fff;
+}
+
+/*Adapted bootstrap style*/
+.navbar-default .navbar-toggle:hover .icon-bar {
+    background-color: #000;
+}
+
+.navbar-default .navbar-toggle {
+    border: 0;
+}
+
+/*Adapted bootstrap style*/
+.navbar-default .navbar-toggle:focus,
+.navbar-default .navbar-toggle:hover {
+    background-color: #337ab7;
+}
+
+/*Adapted bootstrap style*/
+.navbar-default .navbar-toggle,
+.navbar-default .navbar-toggle {
+    background-color: #337ab7;
+}
+
+/*Adapted bootstrap style*/
+.navbar {
+    box-shadow: 0px 0px 1px 1px rgba(0, 0, 0, 0.73);
+    border-radius: 1px;
+}
+
+/*Adapted bootstrap style*/
+.navbar-default {
+    border-color: #4076a4;
+}
+
+/*Adapted bootstrap style*/
+.navbar-default .navbar-nav>.active>a,
+.navbar-default .navbar-nav>.active>a:focus,
+.navbar-default .navbar-nav>.active>a:hover {
+    background-color: #1767ad;
+    color: #FFF
+}
